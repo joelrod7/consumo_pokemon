@@ -10,9 +10,9 @@ export const Carta = ({url}) => {
             {
                 cargando
                 ?
-                <h1>Cargando</h1>
+                <h2>Cargando</h2>
                 :
-                <div className='' style={{width: '14rem'}}>
+                <div className='caja' style={{width: '14rem'}}>
                     <div>
                         <h5>{data.id}</h5>
                     </div>
