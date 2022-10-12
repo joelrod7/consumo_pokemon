@@ -6,7 +6,7 @@ const Pokemon = () => {
     const [url, setUrl] = useState('https://pokeapi.co/api/v2/pokemon')
     const estado = Conex_Api(url)
     const {cargando, data} = estado
-    cargando? console.log('cargando'):console.log(data.results)
+    // cargando? console.log('cargando'):console.log(data.results)
 
 
     return(
