@@ -11,13 +11,20 @@ const Pokemon = () => {
 
     return(
         <div>
-            <h1>Lista de Pokémon</h1>
+            <h1>Api Pokédex</h1>
             {
                 cargando
                 ?
-                <h1>Cargando...</h1>
+                <h2>Cargando...</h2>
                 :
-                <Detalles results={data.results}/>
+                <div>
+                    <Detalles results={data.results}/>
+                    
+                    <div className='parte_baja'>
+                        <button className='cambiar' onClick={() =>setUrl(data.previous)}>Prev</button>
+                        <button className='cambiar' onClick={() =>setUrl(data.next)}>Next</button>
+                    </div>
+                </div>
             }
         </div>
     )
