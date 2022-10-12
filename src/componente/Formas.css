@@ -1,7 +1,7 @@
 h1{
     text-align: center;
-    color: crimson;
-    background-color: #313131;
+    color: white;
+    background-color: #1f1f1f;
     margin: 0;
     padding: 20px 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -37,7 +37,7 @@ h1{
 .parte_baja{
     text-align: center;
     padding: 15px 0;
-    border-top: solid 2px gray;
+    border-top: solid 2px #1f1f1f;
 }
 
 .cambiar{
