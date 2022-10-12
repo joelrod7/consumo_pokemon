@@ -12,15 +12,15 @@ export const Carta = ({url}) => {
                 ?
                 <h1>Cargando</h1>
                 :
-                <div className=''>
+                <div className='' style={{width: '14rem'}}>
                     <div>
-                        <h5></h5>
+                        <h5>{data.id}</h5>
                     </div>
                     <div>
-                        <img src='' alt='pokemon'></img>
+                        <img src={data.sprites.front_default} alt='pokemon'/>
                     </div>
                     <div>
-                        <p></p>
+                        <p>{data.forms[0].name}</p>
                     </div>
                 </div>
             }

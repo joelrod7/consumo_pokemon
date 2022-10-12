@@ -1,7 +1,7 @@
 import React from 'react'
 import {Carta} from './Carta'
 
-export const Carta = ({url}) => {
+export const Detalles = ({results}) => {
     return (
         <div className='container'>
             <ul className='detalles'>
