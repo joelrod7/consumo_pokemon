@@ -20,7 +20,7 @@ export const Carta = ({url}) => {
                         <img src={data.sprites.front_default} alt='pokemon'/>
                     </div>
                     <div>
-                        <p>{data.forms[0].name}</p>
+                        <p className='nombres-p'>{data.forms[0].name}</p>
                     </div>
                 </div>
             }

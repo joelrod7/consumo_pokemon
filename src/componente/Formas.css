@@ -31,7 +31,6 @@ h1{
 .item{
     display: flex;
     padding: 1rem;
-    text-transform: capitalize;
 }
 
 .parte_baja{
@@ -50,4 +49,11 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     font-style: italic;
+}
+
+.nombres-p{
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
 }
